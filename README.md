@@ -10,7 +10,8 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 - [Como Utilizar](#como-Utilizar)
 - [Comandos teclado no VS-Code](#comandos-teclado-no-vs-code)
 - [Prompts usados na Aula 01](#prompts-usados-na-aula-01)
-- - [Prompts usados na Aula 02](#prompts-usados-na-aula-02)
+- [Prompts usados na Aula 02](#prompts-usados-na-aula-02)
+- [Prompts usados na Aula 03](#prompts-usados-na-aula-03)
 - [Extensões VS-Code](#extensões-vs-code)
 
 ## Tecnologias Utilizadas
@@ -30,7 +31,7 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 2. Abra o arquivo index.html em um navegador web.
 
 ## Comandos teclado no VS-Code
-- CTRL + K, CTRL + F : Se estiver dentro de um arquivo .html com o conteúdo selecionado(CTRL + A), ira identar(beautify) o codigo(mas tem q realizar os dois na ordem apresentada).
+- CTRL + ALT + F : Se estiver dentro de um arquivo .html com o conteúdo selecionado(CTRL + A), ira identar(beautify) o codigo.
 
 ## Prompts usados na Aula 01
 - Quais tecnologias preciso aprender para criar o meu site?
@@ -61,6 +62,17 @@ Agora, gostaria de criar mais 2 atletas: a Rayssa Leal do skate e a Beatriz Souz
 Ao executar tenho a seguinte mensagem de erro:
 (Adicionar print de tela ou copiar mensagem).
 O que estou fazendo de errado?
+
+
+## Prompts usados na Aula 03
+- Estou estudando JavaScript e gostaria de entender os tipos de variáveis que existem. Me mostre alguns exemplos sobre os tipos mais comuns
+Tenho o seguinte código JavaScript
+```JS
+[Adicionar código]
+```
+- Gostaria de criar mais 2 objetos com a mesma estrutura. Crie sobre a Beatriz Souza do Judô e a Rebeca Andrade da Ginástica
+- Crie uma lista de objetos JavaScript, que contenham os campos: Título; Sinopse; Gênero Crie sobre filmes de terror dos anos 80 com 3 filmes
+- Crie uma lista de objetos sobre cartas de D&D com os seguintes atributos: Nome da carta; Tipo (personagem, item, arma); Ponto de força; Descrição. Crie 3 cartas de cada tipo em uma lista de objetos JavaScript.
 
 ## Extensões VS-Code
 - **Live Server:** Permite que você execute um servidor de desenvolvimento local diretamente do seu editor, fornecendo uma pré-visualização em tempo real de páginas web à medida que você faz alterações no código. Quando ativada, a extensão abre automaticamente seu projeto em um navegador e recarrega a página sempre que você salva um arquivo HTML, CSS ou JavaScript, facilitando o desenvolvimento de aplicações web ao proporcionar um fluxo de trabalho mais ágil e dinâmico.
