@@ -30,7 +30,7 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 2. Abra o arquivo index.html em um navegador web.
 
 ## Comandos teclado no VS-Code
-- CTRL + ALT + F : Se estiver dentro de um arquivo .html com o conteúdo selecionado(CTRL + A), ira identar(beautify) o codigo.
+- CTRL + K, CTRL + F : Se estiver dentro de um arquivo .html com o conteúdo selecionado(CTRL + A), ira identar(beautify) o codigo(mas tem q realizar os dois na ordem apresentada).
 
 ## Prompts usados na Aula 01
 - Quais tecnologias preciso aprender para criar o meu site?
