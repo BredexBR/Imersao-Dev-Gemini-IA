@@ -1,4 +1,4 @@
-# Aula01
+# Imersão Dev Gemini IA
 
 ## Descrição
 Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, uma iniciativa da Alura em parceria com o Google.Utilizando a poderosa tecnologia do [Gemini IA](https://gemini.google.com/), este projeto web oferece uma experiência de pesquisa personalizada para atletas brasileiros. Descubra informações relevantes sobre seus atletas favoritos de forma rápida e fácil.
@@ -12,6 +12,7 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 - [Prompts usados na Aula 01](#prompts-usados-na-aula-01)
 - [Prompts usados na Aula 02](#prompts-usados-na-aula-02)
 - [Prompts usados na Aula 03](#prompts-usados-na-aula-03)
+- [Prompts usados na Aula 04](#prompts-usados-na-aula-04)
 - [Extensões VS-Code](#extensões-vs-code)
 
 ## Tecnologias Utilizadas
@@ -73,6 +74,12 @@ Tenho o seguinte código JavaScript
 - Gostaria de criar mais 2 objetos com a mesma estrutura. Crie sobre a Beatriz Souza do Judô e a Rebeca Andrade da Ginástica
 - Crie uma lista de objetos JavaScript, que contenham os campos: Título; Sinopse; Gênero Crie sobre filmes de terror dos anos 80 com 3 filmes
 - Crie uma lista de objetos sobre cartas de D&D com os seguintes atributos: Nome da carta; Tipo (personagem, item, arma); Ponto de força; Descrição. Crie 3 cartas de cada tipo em uma lista de objetos JavaScript.
+
+## Prompts usados na Aula 04
+```JS
+[Inserir código]
+```
+- Tenho essa base de código e gostaria de incluir comentários, sem modificar o código ou nomes de variáveis
 
 ## Extensões VS-Code
 - **Live Server:** Permite que você execute um servidor de desenvolvimento local diretamente do seu editor, fornecendo uma pré-visualização em tempo real de páginas web à medida que você faz alterações no código. Quando ativada, a extensão abre automaticamente seu projeto em um navegador e recarrega a página sempre que você salva um arquivo HTML, CSS ou JavaScript, facilitando o desenvolvimento de aplicações web ao proporcionar um fluxo de trabalho mais ágil e dinâmico.
