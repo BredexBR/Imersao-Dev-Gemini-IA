@@ -1,7 +1,7 @@
 # Imersão Dev Gemini IA
 
 ## Descrição
-Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, uma iniciativa da Alura em parceria com o Google.Utilizando a poderosa tecnologia do [Gemini IA](https://gemini.google.com/), este projeto web oferece uma experiência de pesquisa personalizada para atletas brasileiros. Descubra informações relevantes sobre seus atletas favoritos de forma rápida e fácil.
+Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, uma iniciativa da Alura em parceria com o Google.Utilizando a poderosa tecnologia do [Gemini IA](https://gemini.google.com/), este projeto web oferece uma experiência de pesquisa personalizada para Pokemons lendários. Descubra informações relevantes sobre seus pokemons lendários favoritos de forma rápida e fácil.
 
 ## Índice
 
@@ -13,6 +13,7 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 - [Prompts usados na Aula 02](#prompts-usados-na-aula-02)
 - [Prompts usados na Aula 03](#prompts-usados-na-aula-03)
 - [Prompts usados na Aula 04](#prompts-usados-na-aula-04)
+- [Prompts usados na Aula 05](#prompts-usados-na-aula-05)
 - [Extensões VS-Code](#extensões-vs-code)
 
 ## Tecnologias Utilizadas
@@ -20,7 +21,7 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 * **CSS3:** Estilização da página, incluindo layout, cores e tipografia.
 
 ## Funcionalidades
-* **Pesquisa de Atletas:** Permite ao usuário inserir o nome de um atleta e buscar informações relacionadas(Em desenvolvimento).
+* **Pesquisa de Atletas:** Permite ao usuário inserir o nome de um pokemon lendário e buscar informações relacionadas(Em desenvolvimento).
 * **Interface Intuitiva:** Design limpo e organizado para facilitar a navegação.
 * **Responsividade:** A página se adapta a diferentes tamanhos de tela.
 
@@ -30,6 +31,12 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
    git clone https://github.com/BredexBR/Imersao-Dev-Gemini-IA.git
 
 2. Abra o arquivo index.html em um navegador web.
+
+<br>
+
+![Execução](imgs/imagem.png)
+
+<br>
 
 ## Comandos teclado no VS-Code
 - CTRL + ALT + F : Se estiver dentro de um arquivo .html com o conteúdo selecionado(CTRL + A), ira identar(beautify) o codigo.
@@ -80,6 +87,20 @@ Tenho o seguinte código JavaScript
 [Inserir código]
 ```
 - Tenho essa base de código e gostaria de incluir comentários, sem modificar o código ou nomes de variáveis
+
+##  Prompts usados na Aula 05
+- O que é Camel Case em linguagem de programação?
+- Tenho a seguinte aplicação
+```HTML
+[Inserir index.html]
+```
+E meu JavaScript
+```JS
+[Inserir app.js]
+```
+Agora, escreva um read.me para o GitHub de uma forma descontraída que explique como a aplicação funciona, quais tecnologias foram utilizadas.
+- Reescreva em markdown
+
 
 ## Extensões VS-Code
 - **Live Server:** Permite que você execute um servidor de desenvolvimento local diretamente do seu editor, fornecendo uma pré-visualização em tempo real de páginas web à medida que você faz alterações no código. Quando ativada, a extensão abre automaticamente seu projeto em um navegador e recarrega a página sempre que você salva um arquivo HTML, CSS ou JavaScript, facilitando o desenvolvimento de aplicações web ao proporcionar um fluxo de trabalho mais ágil e dinâmico.
