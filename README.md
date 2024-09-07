@@ -5,6 +5,7 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 
 ## Índice
 
+- [Vercel](#vercel)
 - [Tecnologias Utilizadas](#tecnologias-Utilizadas)
 - [Funcionalidades](#funcionalidades)
 - [Como Utilizar](#como-Utilizar)
@@ -15,6 +16,9 @@ Este repositório contém o código desenvolvido durante a Imersão Dev Gemini, 
 - [Prompts usados na Aula 04](#prompts-usados-na-aula-04)
 - [Prompts usados na Aula 05](#prompts-usados-na-aula-05)
 - [Extensões VS-Code](#extensões-vs-code)
+
+## Vercel
+- Fiz deploy da minha aplicação atráves da Vercel. Caso queira testar [clique aqui](https://imersao-dev-gemini-ia.vercel.app/)
 
 ## Tecnologias Utilizadas
 * **HTML5:** Estrutura da página web.
