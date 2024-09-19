@@ -1,119 +1,200 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Chakra Petch", sans-serif;
-    background-color: #F6E8B1; /* Amarelo suave */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #f6e8b1; /* Amarelo suave */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem;
-    color: #5C4033; /* Marrom */
-    text-align: center;
-    letter-spacing: 0.4rem;
+  font-size: 2.5rem;
+  color: #5c4033; /* Marrom */
+  text-align: center;
+  letter-spacing: 0.4rem;
 }
 
 /* Estiliza as seções da página */
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem;
-    border: none;
-    padding: 1rem;
-    border-radius: 1.5rem;
-    margin-bottom: 1rem;
-    color: #5C4033; /* Marrom */
-    font-size: 1rem;
-    box-sizing: border-box;
+  width: 30rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  color: #5c4033; /* Marrom */
+  font-size: 1rem;
+  box-sizing: border-box;
 }
 
 /* Estiliza os botões dentro das seções */
 section button {
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 1.5rem;
-    background-color: #D96A4B; /* Laranja suave */
-    color: #FFFFFF; /* Texto branco */
-    font-size: 1rem;
-    cursor: pointer;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #d96a4b; /* Laranja suave */
+  color: #ffffff; /* Texto branco */
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem;
-    height: 46vh;
-    overflow-y: auto;
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 0.6rem;
-    background-color: #FFFFFF; /* Branco neutro */
+  width: 60rem;
+  height: 46vh;
+  overflow-y: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  background-color: #ffffff; /* Branco neutro */
 }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF;
-    border-radius: 0.6rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
-    font-size: 1.5rem;
-    color: #5C4033; /* Marrom */
+  font-size: 1.5rem;
+  color: #5c4033; /* Marrom */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
-    text-decoration: none;
-    color: #D96A4B; /* Laranja suave */
+  text-decoration: none;
+  color: #d96a4b; /* Laranja suave */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #5C4033; /* Marrom */
-    margin: 0.5rem 0;
+  color: #5c4033; /* Marrom */
+  margin: 0.5rem 0;
 }
 
 .numero-meta {
-    color: #5C4033; /* Marrom */
-    margin: 0.5rem 0;
+  color: #5c4033; /* Marrom */
+  margin: 0.5rem 0;
 }
 
 .regiao-meta {
-    color: #5C4033; /* Marrom */
-    margin: 0.5rem 0;
+  color: #5c4033; /* Marrom */
+  margin: 0.5rem 0;
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #5C4033; /* Marrom */
-    color: #FFFFFF; /* Branco */
-    text-align: center;
-    padding: 0;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    font-size: 1rem;
+  background-color: #5c4033; /* Marrom */
+  color: #ffffff; /* Branco */
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
+}
+
+/* Estilos globais para dispositivos maiores (desktop) continuam como estão */
+/* Agora adicionaremos media queries para telas menores */
+
+/* Para dispositivos com largura máxima de 1024px (tablets e telas menores) */
+@media screen and (max-width: 1024px) {
+  section input {
+    width: 25rem; /* Reduz a largura do input */
+  }
+
+  .resultados-pesquisa {
+    width: 50rem; /* Reduz a largura da área de resultados */
+  }
+}
+
+/* Para dispositivos com largura máxima de 768px (tablets pequenos e smartphones grandes) */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Reduz o tamanho do título */
+    letter-spacing: 0.2rem;
+  }
+
+  section input {
+    width: 20rem; /* Ajusta a largura do input */
+    font-size: 0.9rem; /* Reduz o tamanho da fonte no input */
+  }
+
+  section button {
+    padding: 0.7rem 1rem; /* Ajusta o padding do botão */
+    font-size: 0.9rem; /* Reduz o tamanho da fonte do botão */
+  }
+
+  .resultados-pesquisa {
+    width: 40rem; /* Reduz ainda mais a área de resultados */
+    height: 40vh; /* Ajusta a altura da área de resultados */
+  }
+
+  .item-resultado h2 {
+    font-size: 1.3rem; /* Reduz o tamanho da fonte dos títulos nos resultados */
+  }
+}
+
+/* Para dispositivos com largura máxima de 480px (smartphones) */
+@media screen and (max-width: 480px) {
+  body {
+    justify-content: flex-start; /* Alinha o conteúdo no topo da tela */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Reduz ainda mais o tamanho do título */
+  }
+
+  section input {
+    width: 15rem; /* Ajusta a largura do input para caber melhor na tela */
+    font-size: 0.8rem;
+    padding: 0.8rem; /* Ajusta o padding para telas pequenas */
+  }
+
+  section button {
+    padding: 0.6rem 0.8rem; /* Reduz o tamanho do botão */
+    font-size: 0.8rem;
+  }
+
+  .resultados-pesquisa {
+    width: 90%; /* Usa porcentagem para ajustar dinamicamente */
+    height: 35vh;
+    padding: 0.5rem;
+  }
+
+  .item-resultado {
+    padding: 0.8rem; /* Reduz o padding dos itens de resultado */
+  }
+
+  .item-resultado h2 {
+    font-size: 1.2rem; /* Reduz o tamanho dos títulos nos resultados */
+  }
+
+  footer {
+    font-size: 0.8rem; /* Ajusta o tamanho da fonte do rodapé */
+  }
 }
